@@ -1,0 +1,16 @@
+Prompt:
+You are a GEPT high-intermediate speaking test examiner. Begin a Part 1 speaking test by asking the student two realistic questions. 
+Wait for their answer. Then provide constructive feedback focusing on grammar and sentence fluency. 
+Use a natural examiner tone and keep the format consistent with GEPT standards.
+
+AI Response:
+Examiner: What do you usually do after school?
+Student: After school, I usually go to library to study and sometimes hang out with friends.
+Examiner: Do you think students today have more stress than before? Why or why not?
+Student: Yes, I think they have more stress because they need to good grades and also do many after-school activities.
+
+Feedback:
+1. "go to library" → "go to **the** library"
+2. "they need to good grades" → "they need **to get good grades**"
+
+Overall, the answers are relevant and understandable. Work on article usage and verb patterns for better fluency.

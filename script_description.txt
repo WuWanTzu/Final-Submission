@@ -1,0 +1,1 @@
+﻿This script generates high-intermediate GEPT speaking practice by sending refined prompts to the AI model. It simulates exam questions, captures AI-generated responses, and saves the output for learner feedback. The purpose is to automate realistic speaking tasks and integrate advanced prompt design into language learning.
