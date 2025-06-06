@@ -1,0 +1,42 @@
+AI Prompt Report
+
+1. Platform and Environment
+Platform Chosen: ChatGPT (by OpenAI)
+Environment: Google Colab
+
+2. Reasons for Choosing the Platform
+ChatGPT is the platform that I understand the most, and I have used it many times before.
+I know how to interact with it and get the answer I want.
+According to the information I got about Google Colab, it seems to be more suitable for beginners,
+and since I don’t have experience in coding, I hope the platform can provide more instructions and clear steps for coding.
+
+3. Prompt Design and Results
+
+Category: Informational Prompt
+Question: Can you tell me the definition of Internet Addiction for my short essay?
+AI Response: AI gave a clear definition, mentioning excessive use of the internet that interferes with daily life.
+
+Category: Creative Prompt
+Question: Can you give me some examples of conversation that might help me improve my English speaking ability?
+AI Response: AI provided simple, useful dialogue samples that are easy to practice for everyday situations.
+
+Category: Language Translation Prompt
+Question: “Prevention is better than cure.” Can you help me to translate in Chinese and give an explain?
+AI Response: AI translated it to 「預防勝於治療」 and explained that it's about solving problems before they happen.
+
+Category: Logical or Reasoning Prompt
+Question: θ is an acute angle, 2cosθ+sinθ=2, what is sinθ and tanθ?
+AI Response: AI solved the equation step-by-step and found that sinθ = 1, then calculated tanθ accordingly.
+
+Category: Personal Assistant Prompt
+Question: I want to write a graduation letter for my cousin, can you help me?
+AI Response: AI generated a warm and personal letter template with kind wishes and encouragement.
+
+Category: Programming or Code Prompt
+Question: Can you explain this code ("Hello, world") for me?
+AI Response: AI explained that this is a basic code used to print text, usually for beginners learning a programming language.
+
+4. Reflection / What I Learned
+This project helped me think more clearly about how to design prompts.
+I realized that the way I ask questions really affects the answer I get.
+It also made me more comfortable using AI tools like ChatGPT.
