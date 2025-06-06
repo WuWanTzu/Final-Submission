@@ -1,0 +1,81 @@
+﻿Refining Prompts & Evaluating Outputs
+Common Prompts
+Category
+	Question
+	The Response of AI 
+	Informational Prompt
+	Can you tell me the definition of Internet Addiction for my short essay?
+	Internet addiction is a behavioral disorder characterized by excessive or compulsive use of the internet that interferes with daily life, responsibilities, and well-being. It often involves a loss of control over online activity, leading to negative impacts on mental health, social relationships, academic or work performance, and physical health.
+	Creative Prompt
+	Can you give me some examples of conversation that might help me improve my English speaking ability?
+	 1. Asking for Directions
+You: Excuse me, where’s the train station?
+Stranger: Go straight, then turn left.
+You: Thanks!
+Stranger: You’re welcome.
+ 2. At a Coffee Shop
+Barista: What would you like?
+You: A hot latte, please.
+Barista: Anything else?
+You: No, thanks.
+ 3. Small Talk
+You: Hi, I’m Anna.
+Tom: I’m Tom. Nice to meet you.
+You: Where are you from?
+Tom: Canada. You?
+You: Taiwan.
+	Language Translation Prompt
+	“Prevention is better than cure.” Can you help me to translate in Chinese and give an explain?
+	Translation:
+"Prevention is better than cure."
+→ 「預防勝於治療」 
+ Explanation:
+This means it is better to stop a problem from happening than to deal with it after it occurs.
+ Examples:
+* Health:
+→ Eating healthy and exercising helps avoid illness — it’s better than getting sick and needing treatment.
+
+* Life:
+→ Saving your files often prevents data loss — better than fixing it after a crash.
+
+	Category
+	Question
+	The Response of AI 
+	Informational Prompt
+	Please tell me the clear and concise definition of Internet Addiction with formal writing for my academic essay?
+
+
+	Internet addiction is a behavioral condition marked by excessive and compulsive use of the internet, which significantly interferes with daily life, responsibilities, and personal well-being. It is often associated with prolonged periods of online activity, a loss of control over internet usage, and withdrawal symptoms when access is limited. This disorder can negatively impact academic performance, social interactions, and mental health.
+
+
+	Creative Prompt
+	Can you give me 3-5 short and practical English sentences for daily converstaions with foreigner, along with useful daily idiom to help me improve my English speaking ability?
+	3–5 Practical Sentences for Daily Use:
+   1. "Hi, where are you from?"
+→ A friendly way to start a conversation.
+
+   2. "Could you say that again, please?"
+→ Useful when you didn’t catch what someone said.
+
+   3. "I’m not sure, but I’ll find out."
+→ Shows you're willing to help even if you don’t know the answer.
+
+   4. "It’s nice to meet you!"
+→ Common and polite when meeting someone for the first time.
+
+   5. "Can I ask you a quick question?"
+→ Great for starting a conversation politely and naturally.
+
+	Language Translation Prompt
+	Translate the phrase “Prevention is better than cure” into Chinese and explain its meaning in both cultural and practical contexts, with examples if possible. 
+	1. Translation:
+"Prevention is better than cure"
+→ 「預防勝於治療」 
+2.Meaning in Practical Context:
+This proverb means it is wiser and more effective to stop problems before they happen rather than trying to fix them afterward. It applies to many areas of life—especially health, safety, and planning.
+3. Example Sentence:
+In terms of health, prevention is better than cure — maintaining good habits is much more effective than seeing a doctor after getting sick.)
+
+
+	Conclusion
+       When we talk to AI, the way we ask questions really affects the answer we get. If we want a more detailed response, we just need to say so, and the AI will give us more information. Also, if we tell it what we’re going to use the answer for—like a school project or daily conversation—it can change the tone to fit that situation, whether it needs to sound formal or casual. If we don’t understand the answer, it’s totally fine to ask for a simpler explanation. The AI can make things easier to understand. Just ask for what you need and they will correspond to your need.  Just being clear with what we need, giving some background, and asking follow-up questions, we can get better and more useful answers from AI.
