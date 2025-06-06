@@ -1,0 +1,66 @@
+﻿GEPT Speaking Prompt Refinement and Analysis
+      —------------------------------—-----------------------------—-----------------------------—---------------------------------------------
+Improvement Process (Initial Prompt & Process & Methods)
+Step 1: Initial Prompt & AI Response
+* Original Prompt
+"Can you give me the conversation example for me to practice my GEPT test?"
+
+* AI Response Summary
+ The AI provided a short dialogue. While the sentences were easy to understand, the content was quite general and not clearly linked to any specific part of the GEPT speaking test.
+
+* Observation
+ I noticed the prompt was too vague. Phrases like “conversation example” lacked specificity, and I didn’t mention the level or part of the test. This led to an overly basic response that didn’t help much for high-intermediate preparation.
+
+________________
+
+
+Step 2: Prompt Refinement – Adding Context
+   * Refined Prompt
+  "Can you give me a sample GEPT high-intermediate level speaking test conversation from Part 1 (Answering Questions), with realistic dialogue between the examiner and the test taker? "
+
+   * AI Response Summary
+ The AI gave a more structured conversation, appropriate for the high-intermediate level. The topic and vocabulary matched the test’s expectations more closely.
+
+   * Observation
+ By specifying the test level and section, I helped the AI generate more accurate and useful content. This version is more effective for targeted speaking practice.
+
+
+________________
+
+Step 3: Using Chain-of-Thought Technique
+      * Refined Prompt
+ "Can you give me a sample conversation for the GEPT high-intermediate speaking test Part 1, and explain why each question is appropriate and how a strong student response would look?"
+
+      * AI Response Summary
+ The response included a question, a strong model answer, and a short explanation of why the question was asked and why the answer was good.
+
+      * Observation
+ This helped me and other learners better understand the purpose of each question and how to construct answers with clear reasons and good grammar. It added depth to the practice.
+________________
+
+
+ Step 4: Using Few-Shot Learning
+         * Refined Prompt
+   "Give me three GEPT high-intermediate speaking test Part 1 questions, for example: Do you have a driver license? Why or why not?"  
+
+         * AI Response Summary
+ The AI gave three well-written questions with clear model answers and brief feedback. The examples showed good language variety and relevance.
+
+         * Observation
+ Providing examples helped the AI deliver more consistent, quality results. It also became more corresponding to the actual test questions.
+—------------------—------------------------------—-----------------------------—-----------------------------—-----------------------------
+Final Prompt Script:
+You are a certified GEPT speaking examiner. Please simulate a high-intermediate GEPT speaking test conversation with the student. The test has three parts:
+            1. Part 1 – Answering Questions: Ask two personal but structured questions to assess general fluency.
+
+            2. Part 2 – Picture Description: Show a picture (describe it in words) and ask the student to describe what is happening.
+
+            3. Part 3 – Expressing Opinions: Present a social issue and ask for the student’s opinion with justification.
+
+After the student answers, correct their grammar and sentence fluency, and give a short explanation of the corrections. Then ask the next question. Keep the tone natural and formal, as if you are an actual examiner.
+Make sure each section has realistic timing and challenge appropriate to a high-intermediate level.
+Begin by saying:
+“Welcome to the GEPT speaking test. Let us begin with Part 1 answering quetions.”
+—------------------------------—-----------------------------—-----------------------------—--------------------------------------------------
+Explanation of Script Purpose and Functionality:
+      This prompt is designed to help students practice for the GEPT high-intermediate speaking test. The AI plays the role of a test examiner, provides realistic and level-appropriate questions that closely match the actual exam format, and gives strong sample responses with feedback. This helps learners improve their fluency, grammar, and answer structure while gaining a better understanding of how to respond effectively in all three test sections: answering questions, picture-based responses, and opinion-based discussions.
