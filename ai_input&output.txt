@@ -1,0 +1,95 @@
+!pip install transformers==4.31.0
+
+from transformers import pipeline
+
+# Create a text generation model using DistilGPT-2
+generator = pipeline("text-generation", model="distilgpt2")
+
+# The prompt you want to send to the AI
+prompt = "Tell me an interesting fact about space."
+
+# Generate text from the model
+response = generator(prompt, max_length=50, num_return_sequences=1)
+
+# Extract the AI-generated response
+output_text = response[0]['generated_text']
+print("AI response:\n", output_text)
+
+# Save the response to a text file
+with open("ai_output.txt", "w") as f:
+    f.write(output_text)
+
+
+
+
+
+
+
+
+Collecting transformers==4.31.0
+  Downloading transformers-4.31.0-py3-none-any.whl.metadata (116 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 116.9/116.9 kB 7.7 MB/s eta 0:00:00
+Requirement already satisfied: filelock in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (3.18.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.14.1 in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (0.32.2)
+Requirement already satisfied: numpy>=1.17 in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (2.0.2)
+Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (24.2)
+Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (6.0.2)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (2024.11.6)
+Requirement already satisfied: requests in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (2.32.3)
+Collecting tokenizers!=0.11.3,<0.14,>=0.11.1 (from transformers==4.31.0)
+  Downloading tokenizers-0.13.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Requirement already satisfied: safetensors>=0.3.1 in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (0.5.3)
+Requirement already satisfied: tqdm>=4.27 in /usr/local/lib/python3.11/dist-packages (from transformers==4.31.0) (4.67.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.11/dist-packages (from huggingface-hub<1.0,>=0.14.1->transformers==4.31.0) (2025.3.2)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.11/dist-packages (from huggingface-hub<1.0,>=0.14.1->transformers==4.31.0) (4.13.2)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.2 in /usr/local/lib/python3.11/dist-packages (from huggingface-hub<1.0,>=0.14.1->transformers==4.31.0) (1.1.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/dist-packages (from requests->transformers==4.31.0) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.11/dist-packages (from requests->transformers==4.31.0) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/dist-packages (from requests->transformers==4.31.0) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.11/dist-packages (from requests->transformers==4.31.0) (2025.4.26)
+Downloading transformers-4.31.0-py3-none-any.whl (7.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 59.9 MB/s eta 0:00:00
+Downloading tokenizers-0.13.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.8/7.8 MB 69.5 MB/s eta 0:00:00
+Installing collected packages: tokenizers, transformers
+  Attempting uninstall: tokenizers
+    Found existing installation: tokenizers 0.21.1
+    Uninstalling tokenizers-0.21.1:
+      Successfully uninstalled tokenizers-0.21.1
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.52.3
+    Uninstalling transformers-4.52.3:
+      Successfully uninstalled transformers-4.52.3
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+sentence-transformers 4.1.0 requires transformers<5.0.0,>=4.41.0, but you have transformers 4.31.0 which is incompatible.
+Successfully installed tokenizers-0.13.3 transformers-4.31.0
+/usr/local/lib/python3.11/dist-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+config.json: 100%
+ 762/762 [00:00<00:00, 35.8kB/s]
+/usr/local/lib/python3.11/dist-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+model.safetensors: 100%
+ 353M/353M [00:06<00:00, 71.3MB/s]
+generation_config.json: 100%
+ 124/124 [00:00<00:00, 6.98kB/s]
+tokenizer_config.json: 100%
+ 26.0/26.0 [00:00<00:00, 2.34kB/s]
+vocab.json: 100%
+ 1.04M/1.04M [00:00<00:00, 16.3MB/s]
+merges.txt: 100%
+ 456k/456k [00:00<00:00, 25.2MB/s]
+tokenizer.json: 100%
+ 1.36M/1.36M [00:00<00:00, 21.9MB/s]
+Xformers is not installed correctly. If you want to use memory_efficient_attention to accelerate training use the following command to install Xformers
+pip install xformers.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+AI response:
+ Tell me an interesting fact about space.
+One morning, one of our guest pilots was at the Air Force Base at Cape Cod. He was a good guy about to leave the base and I looked out for him. He flew in over. He
